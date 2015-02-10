@@ -5,7 +5,7 @@
 	<groupId>com.liker.mysunday</groupId>
 	<artifactId>mysunday</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<name>mysunday</name>
 
 	<properties>
@@ -331,7 +331,7 @@
 									<version>3.0.3</version>
 								</requireMavenVersion>
 								<requireJavaVersion>
-									<version>1.7</version>
+									<version>${java.version}</version>
 								</requireJavaVersion>
 								<bannedDependencies>
 									<searchTransitive>true</searchTransitive>

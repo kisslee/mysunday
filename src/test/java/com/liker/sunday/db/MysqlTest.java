@@ -9,16 +9,16 @@ import org.junit.Test;
 
 public class MysqlTest {
 
-	@Test
+//	@Test
 	public void testConnection(){
 		String driver = "com.mysql.jdbc.Driver";
-		String url = "jdbc:mysql://localhost:3306/mysunday";
-		String username = "root";
-		String password = "root";
+//		String url = "jdbc:mysql://localhost:3306/mysunday";
+//		String username = "root";
+//		String password = "root";
 		
-//		String url = "jdbc:mysql://rdsn2iqabqqm36v.mysql.rds.aliyuncs.com:3306/r2xmh5ov5kk18kkg";
-//		String username = "r2xmh5ov5kk18kkg";
-//		String password = "likai365";
+		String url = "jdbc:mysql://rdsn2iqabqqm36v.mysql.rds.aliyuncs.com:3306/r2xmh5ov5kk18kkg";
+		String username = "r2xmh5ov5kk18kkg";
+		String password = "likai365";
 		
 		Connection conn = null;
 		try {
