@@ -1,0 +1,35 @@
+body {
+	font-family: "ff-tisa-web-pro-1",
+				 "ff-tisa-web-pro-2",
+				 "Lucida Grande",
+				 "Helvetica Neue",
+				 Helvetica,
+				 Arial,
+				 "Hiragino Sans GB",
+				 "Hiragino Sans GB W3",
+				 "Microsoft YaHei UI",
+				 "Microsoft YaHei",
+				 "WenQuanYi Micro Hei",
+				 sans-serif;
+}
+
+/* header */
+#header {margin-bottom:25px;}
+
+#header h1 a {
+	color: #f74417;
+	text-decoration: none;
+}
+
+#header h1 small {color: #f86f34;}
+
+/* footer */
+#footer {
+	margin-top: 15px;
+	padding: 15px 0px 0px 0px;
+	font-size: 95%;
+	text-align: center;
+	border-top: 2px solid #f86f34;
+}
+
+#footer a {color: #999;}
